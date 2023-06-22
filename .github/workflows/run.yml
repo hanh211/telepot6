@@ -20,7 +20,6 @@ jobs:
           python -m pip install ultralytics
           python -m pip install telepot
           pip install pyqt5
-          sudo apt-get install libxcb-xinerama0
           python a.py
       # - name: Run Python Script
       #   run: |
