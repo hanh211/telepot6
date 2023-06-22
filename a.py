@@ -61,7 +61,8 @@ class capture_video(QThread):
                     token = "6275415240:AAF3yDdT45-VIn8GdBrQUHH0XmtMXo0MC28"
                     receiver_id=5877612764
                     bot = telepot.Bot(token)
-                    bot.sendPhoto(receiver_id,photo=open("a121.jpg", "rb"),caption="Có xâm nhập, nguy hiêm!")
+                    a=cv2.imwrite("a.jpg",frame)
+                    bot.sendPhoto(receiver_id,photo=open("a.jpg", "rb"),caption="Có xâm nhập, nguy hiêm!")
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
