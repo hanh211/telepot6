@@ -19,6 +19,7 @@ jobs:
         run: |
           python -m pip install ultralytics
           python -m pip install telepot
+          pip install pyqt5
           python a.py
       # - name: Run Python Script
       #   run: |
