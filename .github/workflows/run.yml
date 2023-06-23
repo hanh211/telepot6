@@ -25,4 +25,3 @@ jobs:
       #   run: |
       #     python -m pip install pyTelegramBotAPI
       #     python a.py
-org: home/runner/.cache/pip/wheels/ab/84/e4/5af8c76af9e5bee472e825f1451c18bb3b261d80a7b3ec7f8a
